@@ -18,16 +18,14 @@ emoticons.each do |key, value|
 end
 
 def get_japanese_emoticon(file_path, emoticon) #takes english emote, return japanese
+ japanese_emote = load_library(file_path)['get_emoticon'][emoticon]
 
-emoticon.each do |emoticon|
-  load_library(file_path)
-
-if result['get_emoticons'].find .... 
-  return emoticons[key]
+if japanese_emote 
+  return japanese_emote
 else 
   return "Sorry, that emoticon was not found"
-end 
-end 
+end
+
 end
 
 def get_english_meaning
