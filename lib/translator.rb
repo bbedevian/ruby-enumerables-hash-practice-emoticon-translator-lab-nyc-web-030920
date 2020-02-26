@@ -11,7 +11,7 @@ result = {
 
 empticons.each do |key, value| 
   result['get_meaning'][value[1]] = key 
-  result['get_emotion'][value[0]] = key 
+  result['get_emoticon'][value[0]] = key 
   end 
 end
 
