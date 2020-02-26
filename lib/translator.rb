@@ -10,8 +10,8 @@ result = {
 }
 
 emoticons.each do |key, value| 
-  result['get_meaning'][value[1]] = key #japanese key, meaning value 
-  result['get_emoticon'][value[0]] = emoticons[key][1] #english key, japanese value
+  result['get_meaning'][value[1]] = key #japanese emote key, english meaning value 
+  result['get_emoticon'][value[0]] = emoticons[key][1] #english emote key, japanese emote value
   end 
   
   result
