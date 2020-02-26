@@ -13,6 +13,7 @@ empticons.each do |key, value|
   result['get_meaning'][value[1]] = key 
   result['get_emoticon'][value[0]] = emoticons[key][1] 
   end 
+  result
 end
 
 def get_japanese_emoticon
