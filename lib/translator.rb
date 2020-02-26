@@ -21,7 +21,7 @@ def get_japanese_emoticon(file_path, emoticon) #takes english emote, return japa
 
 emoticon.each do |emoticon|
   load_library(file_path)
-#match (find) key in get_emoticon and return value 
+
 if result['get_emoticons'].find .... 
   return emoticons[key]
 else 
